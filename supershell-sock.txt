@@ -1,0 +1,1 @@
+ssh -D 9050 -J www.pokiio.com:3232 0efba9962c14fea2ec8de8cd492b91a69be556bc
