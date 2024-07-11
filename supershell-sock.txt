@@ -1,1 +1,7 @@
 ssh -D 9050 -J www.pokiio.com:3232 0efba9962c14fea2ec8de8cd492b91a69be556bc
+
+
+
+
+
+icacls id_rsa /reset & icacls id_rsa /inheritance:r & icacls id_rsa /grant:r "$($env:USERNAME):(R)"
